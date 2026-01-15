@@ -1,0 +1,99 @@
+/* Book Haven Bookstore - External CSS */
+
+body {
+  margin: 0;
+  font-family: Calibri, Arial, sans-serif;
+  background-color: #F5F5F5;
+  color: #131C26; /* Bookish Black */
+}
+
+/* Header */
+header {
+  background-color: #2E2E4E; /* Midnight Manuscript */
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation */
+nav {
+  background-color: #3F5461; /* Literature Blue */
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content */
+main {
+  padding: 20px;
+}
+
+/* Headings */
+h1 {
+  font-size: 30px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: Arial, sans-serif;
+}
+
+h3 {
+  font-size: 15px;
+  font-family: Comfortaa, Arial, sans-serif;
+}
+
+/* Text */
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Button */
+.button {
+  background-color: #742C36; /* Romantic Red */
+  color: #ffffff;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #5C2E5C; /* Regal Quill */
+}
+
+/* Gallery grid */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  border: 2px solid #3E5641; /* Book Worm */
+  padding: 5px;
+  background-color: #ffffff;
+}
+
+/* Footer */
+footer {
+  background-color: #2E2E4E;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  font-size: 11px;
+  margin-top: 30px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Haven Bookstore | Gallery</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header>
+  <h1>Gallery</h1>
+  <p>Featured books and bookstore items</p>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="about.html">About Us</a>
+  <a href="custom.html">Custom Page</a>
+</nav>
+
+<main>
+  <h2>Our Collection</h2>
+
+  <div class="gallery">
+    <img src="https://cdn2.sophia.org/markup_pictures/42784/file/cbbabbf6c98fb9ac8d5d0e00e904b023.png" alt="Brie Mine 4Ever book">
+    <img src="https://cdn2.sophia.org/markup_pictures/42785/file/09d7c4abfd897fef28d79af05ca02e2e.png" alt="Glory Riders book">
+    <img src="https://cdn2.sophia.org/markup_pictures/42786/file/ba3a50be61dab549f87ba951a49ed110.png" alt="Sorcerer’s Shadowed Chronicles book">
+
+    <img src="https://cdn2.sophia.org/markup_pictures/42787/file/d2c65b7ff3661c4d3a945a80e13f657c.png" alt="Ball magazine">
+    <img src="https://cdn2.sophia.org/markup_pictures/42788/file/8d40613d5c21f0b17311413ccdc977b5.png" alt="Travel magazine">
+    <img src="https://cdn2.sophia.org/markup_pictures/42789/file/40fa6225a49bf6e022dee7f81e12e83a.png" alt="Eat magazine">
+
+  </div>
+
+<div style="margin-top:20px;">
+  <button onclick="addToCart('Book Item')">Add to Cart</button>
+  <button onclick="viewCart()">View Cart</button>
+  <button onclick="clearCart()">Clear Cart</button>
+  <button onclick="processOrder()">Process Order</button>
+</div>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 Book Haven Bookstore</p>
+  <button onclick="subscribeAlert()">Subscribe</button>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

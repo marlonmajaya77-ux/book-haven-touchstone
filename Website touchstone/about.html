@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Haven Bookstore | About Us</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header>
+  <h1>About Book Haven</h1>
+  <p>Learn more about our bookstore</p>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="about.html">About Us</a>
+  <a href="custom.html">Custom Page</a>
+</nav>
+
+<main>
+  <h2>Who We Are</h2>
+  <p>
+    Book Haven Bookstore is dedicated to creating a welcoming environment for
+    book lovers, students and lifelong learners. We believe reading supports
+    personal growth and academic success.
+  </p>
+
+  <h2>Contact Us</h2>
+  <p>
+    Email: Bookhavenstore@gmail.com<br>
+    Phone: 061 303 8904
+  </p>
+<form onsubmit="saveCustomOrder(); return false;">
+  <label>Name:</label><br>
+  <input type="text" id="name" required><br><br>
+
+  <label>Email:</label><br>
+  <input type="email" id="email" required><br><br>
+
+  <label>Message:</label><br>
+  <textarea id="message" required></textarea><br><br>
+
+  <button type="submit">Submit</button>
+</form>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 Book Haven Bookstore</p>
+  <button onclick="subscribeAlert()">Subscribe</button>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
